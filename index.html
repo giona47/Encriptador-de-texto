@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,301;1,301&display=swap" rel="stylesheet">
+
+    </head>
+    <header>
+
+        <div class = "neo">
+            <img src="imagenes/Matrix-Movie-PNG-Isolated-HD.png" class ="fotoNeo">
+            <h1>Encriptador de Texto</h1>
+        </div>
+
+    </header>
+
+    <body>
+
+        <main>
+
+            <ul class="formularios">
+                <li>
+                    <label for="mensaje">Escriba su mensaje aquí:</label>
+                    <textarea cols="18" rows="30" id="mensajeParaEncriptar" class="input-padron" required></textarea>
+                </li>
+
+                <li>
+                    <label for="mensaje">Mensaje Encriptado:</label>
+                    <textarea cols="22" rows="30" id="mensajeEncriptado" class="input-padron" required></textarea>
+                </li>
+            </ul>
+            <div class="botones">
+                <button class="boton" id="boton1">Encriptar</button>
+                <button class="boton" id="boton3">Desencriptar</button>
+                <button class="boton2" id="boton2">Copiar</button>
+            </div>
+            <p class="nota">El encriptador no funciona con letras mayúsculas ni caracteres especiales.</p>
+        </main>
+
+        <script src="app.js" defer></script>
+    </body>
+</html>

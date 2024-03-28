@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Matrix";
+    src: url(/fuentes/matrix.ttf);
+}
+
+@font-face{
+    font-family: "pixel";
+    src: url(fuentes/VT323/VT323-Regular.ttf);
+}
+
+/*global CSS*/
+
+::selection{
+    background: #CEF10B;
+    color: black;
+}
+/*foto de fondo*/
+main{
+    background: url(./imagenes/matrix-1274888_1280.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+}
+
+.neo{
+    width: 940px;
+    padding: 20px 0;
+}
+
+.fotoNeo{
+    width: 18%;
+}
+
+.neo h1{
+    display: inline;
+    font-size: 55px;
+    color:#CEF10B;
+    font-family: "Matrix";
+    margin-right: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+label{
+    display: block;
+    font-size: 30px;
+    margin: 0px 45px 10px;
+    font-family: "pixel";
+    color: white;
+
+}
+
+.input-padron{
+    
+    margin: 0 20px 0 20px;
+    padding: 10px 70px;
+    width: 50%;
+    height: 250px;
+    background-color: black;
+    border: 0;
+    color: #CEF10B;
+    resize: none;
+}
+
+
+.formularios{
+    width: 940px;
+    margin: 0 auto;
+    padding:10px 10px 12.5px 80px;
+}
+
+.formularios li{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-color: #CEF10B;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    
+
+}
+
+.botones{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.boton{
+    position: relative;
+    left: 120px;
+    width: 13%;
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    background-color: #CEF10B; 
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    font-family: "pixel";
+}
+
+.boton:hover{
+    opacity: .6;
+    transform: scale(0.9);
+}
+
+.boton2:hover{
+    opacity: .6;
+    transform: scale(0.9);
+}
+
+.boton2{
+    position: relative;
+    left: 300px;
+    width: 26%;
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    background-color: #CEF10B; 
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    font-family: "pixel";
+}
+
+.nota{
+    font-size: 19px;
+    font-family: "pixel";
+    color: #CEF10B;
+    text-align: center;
+    padding: 12.5px 0px 12.5px 0px;
+}
+
+
